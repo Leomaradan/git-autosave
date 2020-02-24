@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "main": "autosave.js",
   "repository": "https://github.com/Leomaradan/git-autosave.git",
+  "bin": {
+    "git-autosave": "./autosave.js"
+  },
   "author": "Léo Maradan <3043485+Leomaradan@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {

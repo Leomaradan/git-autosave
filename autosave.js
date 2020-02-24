@@ -58,26 +58,26 @@ argv.option([
     name: 'dir',
     type: 'path',
     description: 'Base path entry point',
-    example: "'auto-save.js --dir=\".\"'"
+    example: "'git-autosave --dir=\".\"'"
   },
   {
     name: 'search',
     type: 'string',
     description: 'Search item to determine which folder is a git repo',
-    example: "'auto-save.js --search=package.lock'"
+    example: "'git-autosave --search=package.lock'"
   },
   {
     name: 'branch',
     type: 'string',
     description: 'keywork in a branch to determine if the branch must be auto-saved',
-    example: "'auto-save.js --branch=draft'"
+    example: "'git-autosave --branch=draft'"
   },
   {
     name: 'include-node',
     short: 'i',
     type: 'boolean',
     description: 'Include searching through node_modules folder. Can be very slow',
-    example: "'auto-save.js -i'"
+    example: "'git-autosave -i'"
   }
 ]);
 
