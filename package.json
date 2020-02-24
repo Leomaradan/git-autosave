@@ -1,7 +1,7 @@
 {
   "name": "git-autosave",
   "description": "Perform auto-saving git repositories that correspond to some criteria",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "autosave.js",
   "repository": "https://github.com/Leomaradan/git-autosave.git",
   "bin": {
