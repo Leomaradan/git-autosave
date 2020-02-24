@@ -91,4 +91,6 @@ const searchTerm = resolve.options.search !== undefined ? resolve.options.search
 const branchTerm = resolve.options.branch !== undefined ? resolve.options.branch : defaultBranchTerm;
 const includeNodeModule = resolve.options['include-node'] !== undefined ? resolve.options['include-node'] : false;
 
+console.log(`Launching git-autosave in folder ${baseDir}`);
+
 walk(baseDir, { searchTerm, branchTerm, includeNodeModule });
