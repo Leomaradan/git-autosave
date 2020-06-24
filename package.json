@@ -11,6 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "argv": "^0.0.2",
-    "simple-git": "^1.131.0"
+    "simple-git": "^2.10.0"
   }
 }
