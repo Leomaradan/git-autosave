@@ -9,7 +9,7 @@
   dependencies:
     debug "^4.1.1"
 
-"@kwsites/promise-deferred@^1.0.1":
+"@kwsites/promise-deferred@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz#8ace5259254426ccef57f3175bc64ed7095ed919"
   integrity sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==
@@ -32,10 +32,10 @@ ms@^2.1.1:
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 simple-git@^2.12.0:
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.12.0.tgz#b5978ec12cd56883185ef1475ec62e9207c1e1dc"
-  integrity sha512-64YrHYqHskWDumxM4thMGCkAd7rek4FEnxcugnpKzJZH6vCkietblsp7TUNdt9qU0pHAnJAanAmjyyQLE46k/Q==
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.14.0.tgz#0dcd455451b9ad63542bf3f0599a01d57764d2e4"
+  integrity sha512-uhZUUrgw+5TlF6WYxGCbsnsdKeA8eu6UY48ynWk5/X5m/B2L5n/1eyc0e2G2hP6LFAIRGYnO3CCzgWng7OkOhg==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
-    "@kwsites/promise-deferred" "^1.0.1"
+    "@kwsites/promise-deferred" "^1.1.1"
     debug "^4.1.1"
